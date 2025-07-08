@@ -93,13 +93,13 @@ export default function Home() {
                 <span className="terminal-prompt"></span>whoami: Digital forensics specialist, Linux hardening expert, privacy advocate
               </div>
               <div className="flex flex-wrap justify-center gap-4">
-                <span className="px-4 py-2 border border-green-400 rounded glow-border hover-glow">
+                <span className="px-4 py-2 border border-green-400 rounded hover-glow">
                   Blue Team Operations
                 </span>
                 <span className="px-4 py-2 border border-red-500 rounded hover-red">
                   Digital Forensics
                 </span>
-                <span className="px-4 py-2 border border-green-400 rounded glow-border hover-glow">
+                <span className="px-4 py-2 border border-green-400 rounded hover-glow">
                   Linux Security
                 </span>
               </div>
@@ -222,7 +222,7 @@ export default function Home() {
                 <span className="text-red-500">{'$'}</span> grep -i certs ./Reman_Certs.txt
               </h2>
               <div className="space-y-6">
-                <div className="border border-green-400 rounded p-6 glow-border hover-glow">
+                <div className="border border-green-400 rounded p-6 hover-glow">
                   <div className="flex items-center justify-between">
                     <div>
                       <h3 className="text-xl font-semibold text-green-400 mb-2">CCNA Certification</h3>
@@ -311,7 +311,7 @@ export default function Home() {
               <h2 className="text-3xl font-bold mb-8">
                 <span className="text-red-500">{'$'}</span> sudo apt install blueteam
               </h2>
-              <div className="terminal-gray rounded p-6 border border-green-400 glow-border">
+              <div className="terminal-gray rounded p-6 border border-green-400">
                 <p className="text-green-400 mb-4 font-semibold">Blue Team Operations Specialist</p>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
@@ -450,7 +450,7 @@ export default function Home() {
                 <span className="text-red-500">{'$'}</span> cat contact.txt
               </h2>
               <div className="space-y-6">
-                <div className="border border-green-400 rounded p-6 glow-border">
+                <div className="border border-green-400 rounded p-6">
                   <h3 className="text-green-400 font-semibold mb-4">Direct Contact</h3>
                   <p className="text-2xl text-gray-300 mb-2">
                     <span className="text-red-500">✉️</span> 
