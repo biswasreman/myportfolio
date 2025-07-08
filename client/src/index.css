@@ -103,7 +103,7 @@
 }
 
 .glow-text {
-  text-shadow: 0 0 5px currentColor, 0 0 10px currentColor, 0 0 15px currentColor;
+  /* Glow effect removed */
 }
 
 .glow-border {
@@ -143,13 +143,12 @@
 }
 
 .hover-glow:hover {
-  text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+  color: #00ff00;
   transition: all 0.3s ease;
 }
 
 .hover-red:hover {
   color: #ff0040;
-  text-shadow: 0 0 10px #ff0040, 0 0 20px #ff0040;
   transition: all 0.3s ease;
 }
 
@@ -183,7 +182,7 @@
 }
 
 .animate-glow-pulse {
-  animation: glow-pulse 2s ease-in-out infinite alternate;
+  /* Glow pulse animation removed */
 }
 
 /* Custom utility classes */

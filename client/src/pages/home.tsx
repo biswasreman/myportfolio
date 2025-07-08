@@ -57,7 +57,7 @@ export default function Home() {
       <nav className="fixed top-0 w-full bg-black bg-opacity-80 backdrop-blur-sm border-b border-green-400 z-50">
         <div className="container mx-auto px-4 py-3">
           <div className="flex justify-between items-center">
-            <div className="text-xl font-bold glow-text hover-glow cursor-pointer">
+            <div className="text-xl font-bold hover-glow cursor-pointer">
               <span className="text-red-500">[</span>REMAN<span className="text-red-500">@</span>BISWAS<span className="text-red-500">]</span>
             </div>
             <div className="hidden md:flex space-x-6">
@@ -83,7 +83,7 @@ export default function Home() {
               </div>
             </div>
             <div className="p-6">
-              <h1 className="text-4xl md:text-6xl font-bold mb-4 glow-text animate-glow-pulse">
+              <h1 className="text-4xl md:text-6xl font-bold mb-4">
                 <span className="text-red-500">{'>'}</span> REMAN BISWAS
               </h1>
               <div className="text-xl md:text-2xl mb-6 typewriter terminal-cursor">
@@ -121,14 +121,14 @@ export default function Home() {
               </div>
             </div>
             <div className="p-8">
-              <h2 className="text-3xl font-bold mb-8 glow-text">
+              <h2 className="text-3xl font-bold mb-8">
                 <span className="text-red-500">{'$'}</span> cat about.txt
               </h2>
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">
                   <p className="text-gray-300 leading-relaxed">
-                    Passionate <span className="text-green-400 glow-text">Cybersecurity Enthusiast</span> and 
-                    <span className="text-green-400 glow-text"> Blue Team Apprentice</span> with deep expertise in 
+                    Passionate <span className="text-green-400">Cybersecurity Enthusiast</span> and 
+                    <span className="text-green-400"> Blue Team Apprentice</span> with deep expertise in 
                     Linux systems, digital forensics, and system hardening.
                   </p>
                   <p className="text-gray-300 leading-relaxed">
@@ -138,7 +138,7 @@ export default function Home() {
                   </p>
                   <p className="text-gray-300 leading-relaxed">
                     Interested in AI-driven security solutions and maintaining a 
-                    <span className="text-green-400 glow-text"> privacy-first mindset</span> in all operations.
+                    <span className="text-green-400"> privacy-first mindset</span> in all operations.
                   </p>
                 </div>
                 <div className="space-y-4">
@@ -175,7 +175,7 @@ export default function Home() {
               </div>
             </div>
             <div className="p-8">
-              <h2 className="text-3xl font-bold mb-8 glow-text">
+              <h2 className="text-3xl font-bold mb-8">
                 <span className="text-red-500">{'$'}</span> ls /etc/os-list/
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -218,7 +218,7 @@ export default function Home() {
               </div>
             </div>
             <div className="p-8">
-              <h2 className="text-3xl font-bold mb-8 glow-text">
+              <h2 className="text-3xl font-bold mb-8">
                 <span className="text-red-500">{'$'}</span> grep -i certs ./Reman_Certs.txt
               </h2>
               <div className="space-y-6">
@@ -259,7 +259,7 @@ export default function Home() {
               </div>
             </div>
             <div className="p-8">
-              <h2 className="text-3xl font-bold mb-8 glow-text">
+              <h2 className="text-3xl font-bold mb-8">
                 <span className="text-red-500">{'$'}</span> tree /tools
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -308,7 +308,7 @@ export default function Home() {
               </div>
             </div>
             <div className="p-8">
-              <h2 className="text-3xl font-bold mb-8 glow-text">
+              <h2 className="text-3xl font-bold mb-8">
                 <span className="text-red-500">{'$'}</span> sudo apt install blueteam
               </h2>
               <div className="terminal-gray rounded p-6 border border-green-400 glow-border">
@@ -354,7 +354,7 @@ export default function Home() {
               </div>
             </div>
             <div className="p-8">
-              <h2 className="text-3xl font-bold mb-8 glow-text">
+              <h2 className="text-3xl font-bold mb-8">
                 <span className="text-red-500">{'$'}</span> ps aux | grep reman
               </h2>
               <div className="terminal-gray rounded p-6 border border-green-400">
@@ -387,7 +387,7 @@ export default function Home() {
               </div>
             </div>
             <div className="p-8">
-              <h2 className="text-3xl font-bold mb-8 glow-text">
+              <h2 className="text-3xl font-bold mb-8">
                 <span className="text-red-500">{'$'}</span> chmod +x services.sh
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
@@ -446,7 +446,7 @@ export default function Home() {
               </div>
             </div>
             <div className="p-8 text-center">
-              <h2 className="text-3xl font-bold mb-8 glow-text">
+              <h2 className="text-3xl font-bold mb-8">
                 <span className="text-red-500">{'$'}</span> cat contact.txt
               </h2>
               <div className="space-y-6">
@@ -481,7 +481,7 @@ export default function Home() {
           <p className="text-gray-400">
             <span className="text-red-500">{'$'}</span> echo "© Reman Biswas 2025" | tee /dev/stdout
           </p>
-          <p className="text-green-400 mt-2 glow-text">© Reman Biswas 2025</p>
+          <p className="text-green-400 mt-2">© Reman Biswas 2025</p>
         </div>
       </footer>
     </div>
