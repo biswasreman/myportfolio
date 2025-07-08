@@ -1,0 +1,46 @@
+Create a modern, professional, and sleek **cybersecurity portfolio website** for **Reman Biswas** in a **dark hacker theme**. The site should be **minimal**, fast, and visually striking, with **black background**, **green and red neon highlights**, **glowing terminal-style text**, and **hover animations** that resemble hacker UI.
+
+Use **hacker-style monospace fonts** like "Fira Code", "Ubuntu Mono", or "Hack", and make headings look like **Linux terminal commands** (e.g. `cat about.txt`, `sudo whoami`, `ls skills/`, etc.).
+
+💼 **Content:**
+- **Name**: Reman Biswas  
+- **Email**: reman@duck.com  
+- **Socials**: Instagram (https://instagram.com/your_instagram), Facebook (https://facebook.com/your_facebook)
+
+📁 **About Section (`cat about.txt`)**:  
+Display Reman’s role as a **Cybersecurity Enthusiast & Blue Team Apprentice**, passionate about Linux, digital forensics, system hardening, and anonymized computing. Mention interest in AI and ethical hacking with a strong privacy-first mindset.
+
+💻 **OS Experience** (`ls /etc/os-list/`):  
+Ubuntu, Kali Linux, Parrot OS, Windows
+
+📜 **Certifications (`grep -i certs ./Reman_Certs.txt`)**:  
+- CCNA – Indian School of Ethical Hacking (ISOEH) / Indian Cyber Security Solutions (ICSS)  
+- CHFI – Dataspace Academy
+
+🧰 **Tools Expertise (`tree /tools`)**:  
+Nmap, Hydra, Aircrack-ng, Hashcat, JohnTheRipper, Autopsy, Foremost, TestDisk, PhotoRec, FTK Imager, Fail2Ban
+
+🔒 **Security Focus (`sudo apt install blueteam`)**:  
+Focused on Blue Team operations – intrusion detection, log analysis, forensic recovery, endpoint defense, and Linux server hardening.
+
+🧠 **Passion (`ps aux | grep reman`)**:  
+Linux troubleshooting, anonymity, FOSS, Tails OS, VPNs, E2E encrypted services, and the Tor network.
+
+🎯 **Services Offered (`chmod +x services.sh`)**:  
+- File recovery & forensics  
+- Linux hardening  
+- Penetration testing (basic)  
+- Anonymity advisory  
+- Threat mitigation and fail2ban implementation  
+- Audit trails and log review
+
+💡 **Visual/Theme Instructions:**
+- Keep it sleek, no contact form.
+- Add **animated command line effects**, e.g., typewriter effect on headings.
+- Hover animations: lines like green "matrix code" or blinking terminal cursors.
+- Use CSS transitions on hover buttons (glow, color shift).
+- Keep a **cyberpunk, terminal-hacker aesthetic**.
+- Footer should say: `© Reman Biswas 2025`
+
+🛑 Don’t use generic template garbage. This must feel like a terminal-hardened digital lair of a real blue-team operator.
+
