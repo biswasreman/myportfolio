@@ -67,6 +67,7 @@
   body {
     @apply font-mono antialiased bg-black text-green-400 overflow-x-hidden;
     font-family: 'Fira Code', 'JetBrains Mono', 'Ubuntu Mono', monospace;
+    font-size: 18px;
   }
 }
 

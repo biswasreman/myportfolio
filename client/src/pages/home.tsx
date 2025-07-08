@@ -57,14 +57,14 @@ export default function Home() {
       <nav className="fixed top-0 w-full bg-black bg-opacity-80 backdrop-blur-sm border-b border-green-400 z-50">
         <div className="container mx-auto px-4 py-3">
           <div className="flex justify-between items-center">
-            <div className="text-xl font-bold hover-glow cursor-pointer">
+            <div className="text-2xl font-bold hover-glow cursor-pointer">
               <span className="text-red-500">[</span>REMAN<span className="text-red-500">@</span>BISWAS<span className="text-red-500">]</span>
             </div>
-            <div className="hidden md:flex space-x-6">
-              <button onClick={() => scrollToSection('about')} className="hover-glow terminal-prompt">about</button>
-              <button onClick={() => scrollToSection('skills')} className="hover-glow terminal-prompt">skills</button>
-              <button onClick={() => scrollToSection('services')} className="hover-glow terminal-prompt">services</button>
-              <button onClick={() => scrollToSection('contact')} className="hover-glow terminal-prompt">contact</button>
+            <div className="hidden md:flex space-x-8">
+              <button onClick={() => scrollToSection('about')} className="hover-glow terminal-prompt text-lg">about</button>
+              <button onClick={() => scrollToSection('skills')} className="hover-glow terminal-prompt text-lg">skills</button>
+              <button onClick={() => scrollToSection('services')} className="hover-glow terminal-prompt text-lg">services</button>
+              <button onClick={() => scrollToSection('contact')} className="hover-glow terminal-prompt text-lg">contact</button>
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center relative pt-20">
         <div className="text-center max-w-4xl mx-auto px-4">
-          <div className="terminal-window p-8 mb-8">
+          <div className="terminal-window p-10 mb-12">
             <div className="terminal-header">
               <div className="flex items-center space-x-2">
                 <div className="w-3 h-3 bg-red-500 rounded-full"></div>
@@ -83,23 +83,23 @@ export default function Home() {
               </div>
             </div>
             <div className="p-6">
-              <h1 className="text-4xl md:text-6xl font-bold mb-4">
+              <h1 className="text-5xl md:text-7xl font-bold mb-6">
                 <span className="text-red-500">{'>'}</span> REMAN BISWAS
               </h1>
-              <div className="text-xl md:text-2xl mb-6 typewriter terminal-cursor">
+              <div className="text-2xl md:text-3xl mb-8 typewriter terminal-cursor">
                 Cybersecurity Enthusiast & Blue Team Apprentice
               </div>
-              <div className="text-green-300 mb-8 text-lg">
+              <div className="text-green-300 mb-10 text-xl">
                 <span className="terminal-prompt"></span>whoami: Digital forensics specialist, Linux hardening expert, privacy advocate
               </div>
-              <div className="flex flex-wrap justify-center gap-4">
-                <span className="px-4 py-2 border border-green-400 rounded hover-glow">
+              <div className="flex flex-wrap justify-center gap-6">
+                <span className="px-6 py-3 border border-green-400 rounded hover-glow text-lg">
                   Blue Team Operations
                 </span>
-                <span className="px-4 py-2 border border-red-500 rounded hover-red">
+                <span className="px-6 py-3 border border-red-500 rounded hover-red text-lg">
                   Digital Forensics
                 </span>
-                <span className="px-4 py-2 border border-green-400 rounded hover-glow">
+                <span className="px-6 py-3 border border-green-400 rounded hover-glow text-lg">
                   Linux Security
                 </span>
               </div>
@@ -120,8 +120,8 @@ export default function Home() {
                 <span className="text-gray-400 text-sm ml-4">reman@cybersec:~$ cat about.txt</span>
               </div>
             </div>
-            <div className="p-8">
-              <h2 className="text-3xl font-bold mb-8">
+            <div className="p-10">
+              <h2 className="text-4xl font-bold mb-10">
                 <span className="text-red-500">{'$'}</span> cat about.txt
               </h2>
               <div className="grid md:grid-cols-2 gap-8">
@@ -174,8 +174,8 @@ export default function Home() {
                 <span className="text-gray-400 text-sm ml-4">reman@cybersec:~$ ls /etc/os-list/</span>
               </div>
             </div>
-            <div className="p-8">
-              <h2 className="text-3xl font-bold mb-8">
+            <div className="p-10">
+              <h2 className="text-4xl font-bold mb-10">
                 <span className="text-red-500">{'$'}</span> ls /etc/os-list/
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -217,8 +217,8 @@ export default function Home() {
                 <span className="text-gray-400 text-sm ml-4">reman@cybersec:~$ grep -i certs ./Reman_Certs.txt</span>
               </div>
             </div>
-            <div className="p-8">
-              <h2 className="text-3xl font-bold mb-8">
+            <div className="p-10">
+              <h2 className="text-4xl font-bold mb-10">
                 <span className="text-red-500">{'$'}</span> grep -i certs ./Reman_Certs.txt
               </h2>
               <div className="space-y-6">
@@ -258,8 +258,8 @@ export default function Home() {
                 <span className="text-gray-400 text-sm ml-4">reman@cybersec:~$ tree /tools</span>
               </div>
             </div>
-            <div className="p-8">
-              <h2 className="text-3xl font-bold mb-8">
+            <div className="p-10">
+              <h2 className="text-4xl font-bold mb-10">
                 <span className="text-red-500">{'$'}</span> tree /tools
               </h2>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -307,8 +307,8 @@ export default function Home() {
                 <span className="text-gray-400 text-sm ml-4">reman@cybersec:~$ sudo apt install blueteam</span>
               </div>
             </div>
-            <div className="p-8">
-              <h2 className="text-3xl font-bold mb-8">
+            <div className="p-10">
+              <h2 className="text-4xl font-bold mb-10">
                 <span className="text-red-500">{'$'}</span> sudo apt install blueteam
               </h2>
               <div className="terminal-gray rounded p-6 border border-green-400">
@@ -353,8 +353,8 @@ export default function Home() {
                 <span className="text-gray-400 text-sm ml-4">reman@cybersec:~$ ps aux | grep reman</span>
               </div>
             </div>
-            <div className="p-8">
-              <h2 className="text-3xl font-bold mb-8">
+            <div className="p-10">
+              <h2 className="text-4xl font-bold mb-10">
                 <span className="text-red-500">{'$'}</span> ps aux | grep reman
               </h2>
               <div className="terminal-gray rounded p-6 border border-green-400">
@@ -386,8 +386,8 @@ export default function Home() {
                 <span className="text-gray-400 text-sm ml-4">reman@cybersec:~$ chmod +x services.sh</span>
               </div>
             </div>
-            <div className="p-8">
-              <h2 className="text-3xl font-bold mb-8">
+            <div className="p-10">
+              <h2 className="text-4xl font-bold mb-10">
                 <span className="text-red-500">{'$'}</span> chmod +x services.sh
               </h2>
               <div className="grid md:grid-cols-2 gap-6">
@@ -446,7 +446,7 @@ export default function Home() {
               </div>
             </div>
             <div className="p-8 text-center">
-              <h2 className="text-3xl font-bold mb-8">
+              <h2 className="text-4xl font-bold mb-10">
                 <span className="text-red-500">{'$'}</span> cat contact.txt
               </h2>
               <div className="space-y-6">
